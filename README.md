@@ -31,7 +31,7 @@ target 'DemoApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod ‘StagingWalleeSdk’, '1.2.1'
+  pod ‘StagingWalleeSdk’, '1.2.3'
 
   target 'DemoAppTests' do
     inherit! :search_paths
@@ -42,14 +42,14 @@ end
 
 #### From GitHub repository
 
-`pod ‘StagingWalleeSdk’, '1.2.1' :source=> ‘https://github.com/WhiteLabelGithubOwnerName/ios-mobile-sdk-spec.git’`
+`pod ‘StagingWalleeSdk’, '1.2.3' :source=> ‘https://github.com/WhiteLabelGithubOwnerName/ios-mobile-sdk-spec.git’`
 
 ```sh
 target 'DemoApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod ‘StagingWalleeSdk’, '1.2.1' :source=> ‘https://github.com/WhiteLabelGithubOwnerName/ios-mobile-sdk-spec.git’`
+  pod ‘StagingWalleeSdk’, '1.2.3' :source=> ‘https://github.com/WhiteLabelGithubOwnerName/ios-mobile-sdk-spec.git’`
 
   target 'DemoAppTests' do
     inherit! :search_paths
