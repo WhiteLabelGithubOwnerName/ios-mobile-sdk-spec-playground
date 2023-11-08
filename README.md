@@ -46,7 +46,7 @@ end
 
 and
 
-`pod 'PaymentResources', '"pod_dependency_version" : "1.0.0",'`
+`pod 'PaymentResources', '1.0.0'`
 
 ```sh
 target 'DemoApp' do
@@ -54,7 +54,7 @@ target 'DemoApp' do
   use_frameworks!
 
   pod 'StagingWalleeSdk', '1.2.0', :source=> 'https://github.com/WhiteLabelGithubOwnerName/ios-mobile-sdk-spec.git'`
-  pod 'PaymentResources', '"pod_dependency_version" : "1.0.0",'
+  pod 'PaymentResources', '1.0.0'
 
   target 'DemoAppTests' do
     inherit! :search_paths
