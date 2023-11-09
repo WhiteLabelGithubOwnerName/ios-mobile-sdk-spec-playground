@@ -31,7 +31,7 @@ target 'DemoApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod ‘StagingWalleeSdk’, '1.2.6'
+  pod ‘StagingWalleeSdk’, '1.2.10'
 
   target 'DemoAppTests' do
     inherit! :search_paths
@@ -42,7 +42,7 @@ end
 
 #### From GitHub repository
 
-`pod 'StagingWalleeSdk', '1.2.6', :source=> 'https://github.com/WhiteLabelGithubOwnerName/ios-mobile-sdk-playground.git'`
+`pod 'StagingWalleeSdk', '1.2.10', :source=> 'https://github.com/WhiteLabelGithubOwnerName/ios-mobile-sdk-playground.git'`
 
 and
 
@@ -53,7 +53,7 @@ target 'DemoApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'StagingWalleeSdk', '1.2.6', :source=> 'https://github.com/WhiteLabelGithubOwnerName/ios-mobile-sdk-playground.git'`
+  pod 'StagingWalleeSdk', '1.2.10', :source=> 'https://github.com/WhiteLabelGithubOwnerName/ios-mobile-sdk-playground.git'`
   pod 'PaymentResources', '1.0.0'
 
   target 'DemoAppTests' do
