@@ -63,13 +63,13 @@ import StagingWalleeSdk
 class ViewController : UIViewController, StagingWalleeResultObserver {
 
     //...
-    var : StagingWalleeSdk
+    var paymentSdk: StagingWalleeSdk
 
     @IBAction func openSdkClick()
     {
-         = StagingWalleeSdk(eventObserver: self)
+        paymentSdk = StagingWalleeSdk(eventObserver: self)
         ...
-        .launchPayment(token: _token, rootController: self)
+        paymentSdk.launchPayment(token: _token, rootController: self)
     }
 
     // ...
@@ -89,7 +89,7 @@ import StagingWalleeSdk
 class PaymentManager: StagingWalleeResultObserver {
 ...
 func onOpenSdkPress(){
-    let wallee = StagingWalleeSdk(eventObserver: self)
+    let sdk = StagingWalleeSdk(eventObserver: self)
     ...
     }
 }
